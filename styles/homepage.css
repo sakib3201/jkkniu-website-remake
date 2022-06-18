@@ -19,3 +19,33 @@ nav ul li{
     font-size: 1.25rem;
     text-align: center;
 }
+nav ul li a{
+    text-decoration: underline;
+    color: black;
+}
+#top-logo{
+    left: 45%;
+    max-height: 100px;
+    background-color: aliceblue;
+}
+footer {
+    background-color: #22577A;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+footer ul{
+    color: azure;
+    padding-left: 2%;
+    list-style: none;
+}
+footer img{
+    border-radius: 15%;
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    position: relative;
+    right: 5%;
+    top: 5%;
+}
