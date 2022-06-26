@@ -47,24 +47,33 @@ nav ul li a:hover{
     z-index: 1;
     display: none;
 }
-footer {
-    background-color: #22577A;
+footer{
+    background-color: #737373;
+    color: #e6e6ff;
+
+}
+footer section a{
+    color: #e6e6ff;
+    text-decoration: none;
+}
+footer .flex{
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 2.2;
+  
+  padding-bottom: 15px;
 }
-footer ul{
-    color: azure;
-    padding-left: 2%;
-    list-style: none;
+footer .fcenter{
+    text-align: center;
+    background-color: #666666;
+    padding-top: 25px;
+    padding-bottom: 25px;
+     box-shadow: 10px #262626; 
 }
-footer img{
-    border-radius: 15%;
-    height: 125px;
-    width: 125px;
-    background-color: white;
-    position: relative;
-    right: 5%;
-    top: 5%;
+footer a:hover {
+  color: #ffe033;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px #fff4b3;
 }
+
