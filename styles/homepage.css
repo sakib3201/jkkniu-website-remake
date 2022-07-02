@@ -29,6 +29,7 @@ nav ul li a{
 nav ul li a:hover{
     font-size: 1.6rem;
     text-decoration: underline;
+    color: black;
 }
 #left-nav
 {   
@@ -45,8 +46,37 @@ nav ul li a:hover{
     position: absolute;
     left: 40%;
     z-index: 1;
-    display: none;
+    
 }
+
+/*Below sections are for calender*/
+.motion-section{
+    font-family: 'Noto Serif', serif;
+    margin: 20px 0px;
+}
+.col-md-3{
+    border-right: 1px solid black;
+    margin-bottom: 15px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.motion-section h1{
+   margin-bottom: 25px;
+}
+.row h1 span{
+   border-bottom: 5px solid black;
+}
+.motion-right span{
+    float: right;
+    background-color: lightgreen;
+    border-radius: 19px;
+    padding: 8px 20px;
+}
+.motion-section a{
+    text-decoration: none;
+}
+/*calender section ends*/
+
 footer{
     background-color: #737373;
     color: #e6e6ff;
@@ -76,4 +106,3 @@ footer a:hover {
   font-size: 20px;
   text-shadow: 2px 2px 5px #fff4b3;
 }
-
