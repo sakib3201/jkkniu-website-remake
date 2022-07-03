@@ -14,7 +14,7 @@
     <!--Links for calender [adds bootstrap 5]-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <script src="/scripts/script.js" defer></script>
 </head>
 <body>
     <!-- Navbar starts-->
@@ -38,7 +38,19 @@
     
     <!-- Begin carousel -->
     <div id="homepage-carousel">
-        We will need a carousel here.
+        <section aria-label="newest photos">
+            <div class="carousel" data-carousel>
+              <button class="carousel-button prev" data-carousel-button="prev" ><=</button>
+              <button class="carousel-button next" data-carousel-button="next" >=></button>
+      
+              <ul data-slides>
+                <li class="slide" data-active><img src="assets/img/image1.jpg" alt="first slide" /></li>
+                <li class="slide"><img src="assets/img/image2.jpg" alt="second slide" /></li>
+                <li class="slide"><img src="assets/img/image3.jpg" alt="third slide" /></li>
+              </ul>
+      
+            </div>
+          </section>
     </div>
     <!-- End carousel-->
 
@@ -111,22 +123,22 @@
 
         <section class="flex">
             <div>
-                <a href="#">JOBS</a><br>
-                <a href="#">ALUMNI</a><br>
-                <a href="#">JKKNIU TENDER</a>
+                <a href="#">Jobs</a><br>
+                <a href="#">Alumni</a><br>
+                <a href="#">JKKNIU Tender</a>
             </div>
             <div>
-                <a href="#">FORMS</a><br>
-                <a href="#">NEWS OF JKKNIU</a><br>
-                <a href="#">CENTRAL LIBRARY</a>
+                <a href="#">Forms</a><br>
+                <a href="#">News</a><br>
+                <a href="#">Central Library</a>
             </div>
             <div>
-                <a href="#">RESULT</a><br>
-                <a href="#">CONTRACT</a>
+                <a href="#">Result</a><br>
+                <a href="#">Contract</a>
             </div>
             <div>
-                <span>PHONE:01XXXXXXXXX</span> <br>
-                <span>FAX:09032-56270</span>
+                <span>Phone:01XXXXXXXXX</span> <br>
+                <span>Fax:09032-56270</span>
             </div>
         </section>
         <div class="fcenter">
