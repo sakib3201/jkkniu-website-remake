@@ -1,3 +1,4 @@
+//Script for carousel . Changes photo on clicking the buttons.
 const buttons = document.querySelectorAll("[data-carousel-button]")
 
 buttons.forEach(button=>{
