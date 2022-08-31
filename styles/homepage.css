@@ -30,6 +30,7 @@ nav ul li a:hover{
     font-size: 1.6rem;
     text-decoration: underline;
     color: black;
+    transition: 100ms ease-in;
 }
 #left-nav
 {   
@@ -59,14 +60,15 @@ nav ul li a:hover{
     list-style-type: none;
   }
   .slide {
-    display: none;
+    position: absolute;
     inset: 0;
     opacity: 0;
-    transition: 200ms ease-in;
+    transition : 1000ms opacity ease-in;
     transition-delay: 200ms;
   }
   .slide[data-active] {
     display: contents;
+    z-index: 1;
     opacity: 1;
     transition-delay: 0ms;
   }
